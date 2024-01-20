@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #13268d;
+    color: white;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+    nav a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #13268d;
+    }
+
+h1 {
+    color: #13268d;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+th {
+    background-color: #13268d;
+    color: white;
+}

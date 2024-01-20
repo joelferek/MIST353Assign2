@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Ahead - Home</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Include your custom CSS -->
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header>
+        <h1>Price Ahead</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="javascript:void(0);" onclick="goToAboutPage()">About Us</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Price Ahead!</h2>
+            <p>Our app calculates ticket prices for sport events based on historical data and weather conditions.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about Price Ahead and our mission to revolutionize ticket pricing using statistics.</p>
+        </section>
+
+        <section>
+            <h2>How this affects Milan Puskar Stadium</h2>
+            <p>
+                The prices for these games were the same price per seat.
+            </p>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Average Attendance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>When weather is not a factor</td>
+                        <td>61,106</td>
+                    </tr>
+                    <tr>
+                        <td>When weather is a factor</td>
+                        <td>43,203</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <script>
+            function goToAboutPage() {
+                window.location.href = 'about.html';
+            }
+        </script>
+    </main>
+
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
